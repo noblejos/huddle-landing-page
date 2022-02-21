@@ -309,6 +309,6 @@ footer .email {
 @media (min-width: 960px) {
   .copyright {
     text-align: right;
-    padding: 0 2em 0;
+    padding-left: 2em;
   }
 }
