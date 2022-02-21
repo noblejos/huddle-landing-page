@@ -33,7 +33,6 @@ p {
   background-position: center;
   background-color: hsl(193, 100%, 96%);
   margin-bottom: 4em;
-  background-image: url(bg-hero-desktop.svg);
 }
 
 nav {
@@ -91,6 +90,9 @@ nav a {
   margin: 1em auto;
 }
 @media (min-width: 960px) {
+  .first {
+    background-image: url(bg-hero-desktop.svg);
+  }
   main {
     display: flex;
 
