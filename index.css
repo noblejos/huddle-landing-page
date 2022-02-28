@@ -2,16 +2,23 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+body {
+  min-width: 320px;
+  margin: 0 0 0 0;
+}
 p {
   opacity: 80%;
 }
 .container {
-  width: 375px;
+  width: 100px;
   margin: 0 auto;
 }
 @media (min-width: 960px) {
+  body {
+    margin: 0 0 0 0;
+  }
   .container {
-    width: 1330px;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
   }
 }
@@ -242,7 +249,7 @@ nav a {
   .foot .float {
     width: 50%;
     right: 25%;
-    bottom: 12%;
+    bottom: 11%;
   }
   .foot .float p {
     width: 45%;
